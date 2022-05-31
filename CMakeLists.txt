@@ -17,6 +17,7 @@
 
 cmake_minimum_required (VERSION 3.4)
 project (barrier C CXX)
+set (CMAKE_PREFIX_PATH "C:\\Qt\\Qt5.12.12\\5.12.12\\msvc2017_64\\")
 
 option (BARRIER_BUILD_GUI "Build the GUI" ON)
 option (BARRIER_BUILD_INSTALLER "Build the installer" ON)
